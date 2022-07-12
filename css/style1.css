@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+html,
+body {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+    grid-area: header
+}
+
+main {
+    border-radius: 10px;
+
+    grid-area: aside;
+
+
+}
+
+aside {
+
+    border-radius: 10px;
+    margin: 20% 5% 8% 5%;
+    grid-area: main;
+
+}
+
+
+
+.corpo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+
+    grid-template-rows: 10vh 75vh 00vh;
+    grid-template-areas: "header    header"
+        "main aside"
+        "footer  footer"
+
+
+
+}
+
+
+
+
+
+
+.item {
+    height: 100px;
+    width: 300px;
+    color: blue;
+
+
+    margin: 5px;
+}
+
+#textDestinos {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 60%;
+
+}
+
+#textDestinos1 {
+    font-style: italic;
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-left: 60%;
+
+}

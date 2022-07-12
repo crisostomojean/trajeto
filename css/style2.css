@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#promo {
+
+
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 10% 10% 10%;
+}
+
+
+.item1 {
+    height: 400px;
+    width: 390px;
+    color: black;
+    background: white;
+
+
+}
+
+
+#rodape {
+    background-image: linear-gradient(to right, rgba(100, 0, 150, 0), rgb(33, 33, 131));
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+
+
+
+}
+
+.item {
+    height: 100px;
+    width: 300px;
+    color: blue;
+
+
+    margin: 5px;
+}

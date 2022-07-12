@@ -1,0 +1,71 @@
+@charset  "UTF-8";
+
+    html, body {
+    margin:0;
+    padding:0;
+    box-sizing:content-box;
+   }
+
+   .corpo  {
+    display:grid;
+    grid-template-columns:  1fr ;
+    grid-row-gap:10px ;
+    grid-template-rows: 10vh 85vh 10vh;
+    grid-template-areas:"header    header"
+                         "main aside"
+                         "footer  footer"
+    }
+
+header  {
+    grid-area: header
+   }
+
+main  {
+    background-image: url(http://2.bp.blogspot.com/-YFXAQ99t5uw/Ui-Rvn92xcI/AAAAAAAAAY0/il8NHE_EoWg/s640/100_6483.JPG);
+    background-size: 100% 100%;
+    border-radius: 10px;
+   margin: 0 5% 0 5%;
+    grid-area: main;
+    
+}
+
+#textDestinos {
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 8%;
+    margin-left: 60%;
+    
+    }
+    
+    #textDestinos1 {
+        font-style: italic;
+        font-weight: bolder;
+        margin-top: 1%;
+        margin-left: 60%;
+        
+        }
+
+footer {
+   grid-area: footer;
+    }
+
+
+
+#rodape {
+    background-image: linear-gradient(to right, rgba(100,0,150,0), rgb(33, 33, 131));
+    height: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    margin: 0 5% 0 5%;
+}
+.item  {
+    height: 100px;
+    width: 300px;
+    color:blue;
+    margin: 5px;
+}
+
